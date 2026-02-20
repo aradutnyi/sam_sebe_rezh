@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*Стили шапки*/
+.head {
+    background-image: url("img/head-fon.jpg");
+    background-size: 250px;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 8px solid black;
+    border-radius: 0 0 30px 30px; 
+    margin-bottom: 3%;
+}
+
+.head-text {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    line-height: 10vh;
+
+    
+}
+
+
+
+/*Все стили для кнопок (ссылок на другие страницы)*/
+.buttons {
+    width: 17vw;
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 26px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #fafaee;
+    border: 5px solid black;
+    border-radius: 15px;
+    transition-duration: 900ms;
+    
+}
+.buttons a{
+    display:block;
+    color: black;
+    text-decoration: none;
+    transition-duration: 900ms;
+    
+}
+.buttons a:hover{
+    color: #fafaee;
+    text-decoration: none
+}
+.buttons:hover {
+    border: 5px double #fafaee;
+    background: black;
+    color: #fafaee
+}
+
+
+
+/*Все стили для страницы О НАС*/
+.main-AU {
+    width: 90vw;
+    height: 78vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-image: url("img/head-fon.jpg");
+    background-size: 250px;
+    
+    border: 8px solid black;
+    border-radius: 30px;
+}
+
+.main-AU p {
+    
+    width: 75%;
+    text-indent: 50px;
+    padding-left: 10px;
+    margin: 0;
+
+    
+
+    font-size: 33px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-text-AU span {
+    font-weight: bold;
+    font-size: 34px
+}
+
+
+/*
+.main-text-AU {
+    font-size: 35px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}*/
+.main-head-AU {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1%;
+    
+}
+ul li {
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 80px;
+    
+    width: 850px
+}
+
+#kml {
+    float: right;
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-right: 1%;
+    position: relative;
+    top: -40px
+}
+
+/*Параметры для кнопки НАЗАД НА ГЛАВНУЮ*/
+#BackToMain{ 
+    width: 25vw;
+    height: 7vh;
+    text-align: center;
+    line-height: 7vh;
+    font-size: 36px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -70px;
+    
+}
+
+
+
+
+/*Стили для ГЛАВНОЙ СТРАНИЦЫ*/
+#main-head{
+    height: 20vh;
+    margin-bottom: 2vh
+    
+}
+#head-text {
+    
+    width: 35vw;
+    float: left;
+    
+}
+
+
+#ToVideo {
+    float: left;
+    margin-top: 12vh;
+    margin-left: 4vw; 
+    
+}
+
+
+#ToAboutUs {
+    float: left;
+    margin-top: 12vh;
+    margin-left: 3vw;
+}
+#ToLearn {
+    float: left;
+    margin-top: 12vh;
+    margin-left: 3vw;
+}
+
+
+#videoBG {
+    background: red;
+    margin-left: 2vw;
+    width: 96vw;
+    height: 73vh;
+    border-radius: 20px;
+    background-image: url("img/head-fon.jpg");
+    background-size: 250px;
+    border: 8px solid black
+}
+
+#video {
+    max-width: 500px;  
+    border: 5px solid black; /* #fafaee*/
+    border-radius: 20px;
+    margin-left: 30vw;
+    margin-top: 50px
+}
+
+.hello-text {
+    background: #fafaee;
+    width: 50vw;
+    height: 65vh;
+    margin: 2vh 23vw 1vh;
+    padding-top: 1vh;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: 8px double black;
+    color: black;
+    
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.hello-text li{
+    font-size: 24px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 0;
+    width: 45vw;
+    
+}
+.hello-text h1{
+    margin:0;
+    font-size: 42px
+
+}
+.hello-text p{
+    margin:0;
+    font-size: 29px;
+}
+
+
+
+
+    /*Все для страницы БУКТРЕЙЛЕРЫ*/
+    /*Создаем объект ссылку с картинкой*/
+    .videos {
+        float: left;
+        width: 70vw;
+        height: 70vh;
+        margin-left: 2vw;
+        border: 8px solid black;
+        border-radius: 30px;
+        background-image: url("img/head-fon.jpg");
+        background-size: 250px;
+    }
+
+
+
+#DescOfPage {
+    background-image: url("img/head-fon.jpg");
+    background-size: 250px;
+    float: left;
+    width: 23vw;
+    height: 73vh;
+    margin-left: 2vw;
+    padding: 5px;
+    border-radius: 30px;
+    border: 8px solid black;
+    text-align: center;
+    
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box
+}
+
+
+
+.VideoSrc{
+    
+    width: 145px;
+    height: 185px;
+    margin: 33px 33px 10px 33px ;
+    float: left;
+    
+    
+}
+.ImgBg{ 
+    
+    width:145px;
+    height: 145px;
+    
+    
+
+    
+     height: 10em;
+     position: relative  
+    
+}
+
+.ImgSrc {
+    width: 145px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+
+.TextSrc{
+    text-align:center;
+    height: 40px;
+    
+
+}
+.TextSrc a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold
+
+}
+
+
+
+
+
+
+
+/*Все для страницы ОБУЧЕНИЕ*/
+#mainLern {
+    background-image: url("img/head-fon.jpg");
+    background-size: 250px;
+    border-radius: 30px;
+    border: 8px solid black;
+    width: 96vw;
+    height: 80vh;
+    margin: 0 2vw 0 2vw;
+    padding-left: 10px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mainLern p{
+    text-indent: 50px;
+    font-size: 30px;
+    
+}
+
+#memo {
+    background: #474747;
+    float: right;
+    width: 23vw;
+    height: 75vh;
+    margin:1vh 1vw;
+    padding-top:1vh;
+    border-radius: 30px;
+    border: 8px double #fafaee;
+    color: #fafaee;
+    font-size: 22px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
